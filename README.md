@@ -22,10 +22,10 @@ Built with **ASP.NET Core**, **Entity Framework Core**, and **Bootstrap 5**.
 |-------|-------------|
 | **Frontend** | Razor Pages  + Bootstrap 5 |
 | **Backend** | ASP.NET Core 8.0 |
-| **Database** | SQLite (local) or PostgreSQL (cloud) |
+| **Database** |  PostgreSQL (cloud) |
 | **ORM** | Entity Framework Core |
-| **Charts** | Chart.js or Blazorise Charts |
-| **Hosting** | Render / Railway / Azure App Service |
+| **Charts** | Chart.js / Blazorise Charts |
+
 
 ---
 

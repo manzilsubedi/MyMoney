@@ -1,4 +1,4 @@
-# 💰 MoneyMap – Personal Budget & Salary Planner (ASP.NET Core)
+#  MyMoney – Personal Budget & Salary Planner (ASP.NET Core)
 
 A simple, modern **.NET web app** to help you plan your money, track expenses, and visualize your budget with interactive charts.  
 Built with **ASP.NET Core**, **Entity Framework Core**, and **Bootstrap 5**.

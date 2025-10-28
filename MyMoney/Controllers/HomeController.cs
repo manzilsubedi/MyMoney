@@ -1,20 +1,28 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MyMoney.Models;
 using System.Diagnostics;
 
 namespace MyMoney.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly UserManager<ApplicationUser> _userManager;
+        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager = null)
         {
             _logger = logger;
+            _userManager = userManager;
         }
 
-        public IActionResult Index()
+
+        [Authorize]
+        public async Task<IActionResult> Index()
         {
+            var user = await _userManager.GetUserAsync(User);
+            ViewBag.UserName = user?.FullName ?? user?.Email;
             return View();
         }
 

@@ -5,7 +5,7 @@ Built with **ASP.NET Core**, **Entity Framework Core**, and **Bootstrap 5**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 ✅ Track income and expenses  
 ✅ Categorize transactions (Food, Rent, Bills, etc.)  
@@ -16,7 +16,7 @@ Built with **ASP.NET Core**, **Entity Framework Core**, and **Bootstrap 5**.
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-------------|
